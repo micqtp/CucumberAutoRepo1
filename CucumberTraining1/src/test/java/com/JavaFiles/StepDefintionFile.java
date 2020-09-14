@@ -21,6 +21,7 @@ public class StepDefintionFile {
 		System.setProperty("webdriver.chrome.driver", "/Applications/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("http://advantageonlineshopping.com/");
+		System.out.println("OK");
 		driver.manage().window().maximize();
 		Thread. sleep(5000);
 		driver.findElement(By.id("menuUserSVGPath")).click();
